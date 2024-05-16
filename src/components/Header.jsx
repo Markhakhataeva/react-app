@@ -4,13 +4,13 @@ import {Menu} from "./Menu";
 import {Checkout} from "./Checkout";
 
 
-export const Header = ({ database }) => {
+export const Header = ({database}) => {
 
     return (
         <header className="header">
             <Logo/>
             <Menu/>
-            <Checkout  database={database}/>
+            <Checkout database={database}/>
         </header>
     );
 }
